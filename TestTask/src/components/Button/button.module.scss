@@ -1,0 +1,53 @@
+.btn {
+    border: 1.5px solid transparent;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background-color: #86c4ff;
+    color: white;
+}
+
+.primary {
+    background-color: #0077b6;
+    transition: 0.3s ease;
+    &:hover {
+        border: 1.5px solid #0077b6;
+        background-color: transparent;
+        color: #0077b6;
+    }
+}
+
+.secondary {
+    background-color: #3bc14a;
+    transition: 0.3s ease;
+    &:hover {
+        border: 1.5px solid #3bc14a;
+        background-color: transparent;
+        color: #3bc14a;
+    }
+}
+
+.small {
+    padding: 5px 12px;
+    font-size: 16px;
+}
+
+.medium {
+    padding: 10px 17px;
+    font-size: 20px;
+}
+
+.large {
+    padding: 12px 20px;
+    font-size: 22px;
+}
+
+.disabled {
+    background-color: rgba(170, 170, 170, 0.658);
+    color: rgba(255, 255, 255, 0.582);
+    cursor: none;
+    pointer-events: none;
+    user-select: none;
+}

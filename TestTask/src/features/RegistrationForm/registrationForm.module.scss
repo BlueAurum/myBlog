@@ -1,0 +1,23 @@
+.form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    max-width: 600px;
+}
+
+.label {
+    row-gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+}
+
+.errorMessage {
+    color: red;
+}

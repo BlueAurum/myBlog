@@ -1,0 +1,39 @@
+.wrapper {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.article {
+    margin-bottom: 50px;
+}
+
+.image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 30px;
+    color: #023047;
+}
+
+.category {
+    color: #fff;
+    background-color: #1d3557;
+    padding: 5px 10px;
+    border-radius: 5px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.commentText {
+    font-size: 18px;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.errorText {
+    color: red;
+}

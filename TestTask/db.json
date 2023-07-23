@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "email": "yibragimov555@gmail.com",
+      "password": "$2a$10$WLA/XiEcNx9AC1sC.tfuQOIh/tUI6GS9ZUu34dLZqqPsxTHhe.J9.",
+      "name": "yakub",
+      "id": 1
+    },
+    {
+      "email": "yibragimov5556@gmail.com",
+      "password": "$2a$10$4NISem1Eq3mXhtBa4AeKDO1YZWI/hLmtoLLSN6Dm2yj4VD/axxRJC",
+      "name": "yakub",
+      "id": 2
+    },
+    {
+      "email": "yibragimov5558@gmail.com",
+      "password": "$2a$10$/9tvdQENeyvL0tJlHfnlfuZQ6aYr6yL.K4eoZYw05jVdATnfrp6nq",
+      "name": "yakub",
+      "id": 3
+    },
+    {
+      "email": "yibragimov5455@gmail.com",
+      "password": "$2a$10$Y6i25DcWhmLQbBIndz50aOHECQF3sENyJe2M6FPUOLTGXKcxbat1i",
+      "name": "yakub",
+      "id": 4
+    },
+    {
+      "email": "yibragimov876@gmail.com",
+      "password": "$2a$10$dU9E/Y.kEfUUj5Gs1ZNkrO/sm5i5Rmg2QE8Y7MvU5hrOEM6QKst9C",
+      "name": "yakub",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "views": 13,
+      "id": 2,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoregroup.com.br%2Fpt-br%2Fwp-content%2Fuploads%2F2020%2F11%2FiStock-1259086543.jpg&f=1&nofb=1&ipt=e781b0a87388b0f4c1cc18ea9ae534635153cc541783526c946327da4e1aeedd&ipo=images",
+      "title": "Как CRM облегчает жизнь отдела продаж",
+      "category": [
+        "b",
+        "c"
+      ],
+      "description": "Если вы занимаетесь продажами, то, скорее всего, знаете, как важно иметь правильные инструменты для работы. CRM-система - один из таких инструментов, который может упростить вашу работу. Она помогает контролировать процесс продаж, обеспечивает безопасность данных и упрощает планирование. Работа с продажами: отслеживание и контроль. Внедрение CRM - первый шаг к оцифровке всех взаимодействий с клиентами. Это позволяет делать обоснованные выводы и принимать обдуманные решения, основанные на данных, а не только на интуиции. И это самое первое, простое, что получают люди, которые начинают использовать CRM. Опыт показывает: одно из главных преимуществ, которые компании получают при внедрении CRM - это возможность контролировать активность своих менеджеров. Можно сказать, что количество продаж обычно прямо пропорционально количеству звонков, писем и сообщений в мессенджерах, сделанных продавцами. Это упрощение, но когда речь идет о десятках или сотнях менеджеров и сотнях и тысячах действий, это работает. CRM позволяет видеть активность менеджеров еще до того, как она повлияет на продажи. Например, если вы замечаете, что количество исходящих звонков или писем упало, ваши продажи все еще могут быть на прежнем уровне, потому что вы закрываете сделки, начатые ранее. Но вы уже знаете, что в следующем месяце у вас будет меньше сделок. И, следовательно, вы можете предпринять меры уже сейчас, чтобы повысить активность. Можно, например, найти новую базу для обзвона или попросить отдел маркетинга прислать больше лидов.С помощью CRM можно оцифровать все действия и коммуникации. Это позволяет видеть в цифрах, сколько звонков были длиннее одной минуты, сколько - короче. Можно видеть изменения в течение последнего месяца, и прогнозировать будущие результаты. Это не просто 'чувство' и “интуиция”, а факты, на которые можно опираться.",
+      "comments": [
+        {
+          "id": 1,
+          "author": {
+            "name": "Максим",
+            "surname": "Петров"
+          },
+          "date": "16.07.2023",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        },
+        {
+          "id": 2,
+          "author": {
+            "name": "Иван",
+            "surname": "Иванов"
+          },
+          "date": "20.03.2023",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        },
+        {
+          "id": 3,
+          "author": {
+            "name": "Александр",
+            "surname": "Григоревь"
+          },
+          "date": "16.07.2022",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        }
+      ]
+    },
+    {
+      "views": 7,
+      "id": 3,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fepmgaa.media.clients.ellingtoncms.com%2Fimg%2Fcroppedphotos%2F2014%2F04%2F01%2FGMAIL.jpg&f=1&nofb=1&ipt=14c6b5e32b598984bc3c6c3c3f17975886c1967ed293db7f634ec8f38af723bc&ipo=images",
+      "title": "Как отправлять в Gmail большие файлы — до 10 Гбайт",
+      "category": [
+        "f",
+        "d",
+        "e"
+      ],
+      "description": "Если вам приходилось отправлять через Gmail письмо с вложениями, вы, наверняка, сталкивались с ограничением размера файла в 25 Мбайт. Здесь мы расскажем как обойти это ограничение. У каждого поставщика услуг электронной почты свои правила, касающиеся размеров вложений, и если размер файла превышает установленный лимит, вам будет отказано в отправке. Для Gmail этот лимит составляет всего 25 Мбайт. Лет десять назад такой размер был бы значительным. Сегодня это не так уж и много. И к сожалению, если у вас есть необходимость отправлять большие файлы, вы не можете настроить Gmail таким образом, чтобы обойти это ограничение. Однако не все потеряно. Благодаря Google Диску вы можете отправлять файлы размером более 25 Мбайт через Gmail (или любой другой почтовый клиент). Вам даже не нужно переключаться между почтовым ящиком Gmail и Диском, так как эту функцию встроили прямо в почту, и она очень проста в использовании. Ниже о том, как отправить файл размером до 10 Гбайт. Раньше для отправки большого файла требовалось сначала загрузить его на Google Диск, а затем выбрать для прикрепления в окне создания сообщения. Теперь вы можете просто щелкнуть значок скрепки, найти нужный файл, и Gmail автоматически загрузит его на диск и создаст ссылку в электронном письме. Однако, в каких-то случаях появляется предупреждение о том, что файл слишком большой, поэтому получателю будет отправлена ссылка и требуется разрешить загрузку. В других случаях Gmail сразу переходит к загрузке. В этом вопросе наблюдается некоторая непоследовательность..",
+      "comments": [
+        {
+          "id": 1,
+          "author": {
+            "name": "Максим",
+            "surname": "Петров"
+          },
+          "date": "16.07.2023",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        },
+        {
+          "id": 2,
+          "author": {
+            "name": "Иван",
+            "surname": "Иванов"
+          },
+          "date": "20.03.2023",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        },
+        {
+          "id": 3,
+          "author": {
+            "name": "Александр",
+            "surname": "Григоревь"
+          },
+          "date": "16.07.2022",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        }
+      ]
+    },
+    {
+      "views": 5,
+      "id": 4,
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmillion-wallpapers.ru%2Fwallpapers%2F4%2F20%2F10829160056736409327.jpg&f=1&nofb=1&ipt=d1f80a39ef80bb0c75dbf0b73f26dd621c1af090bea8cb26236c39fd20f0d197&ipo=images",
+      "title": "Виртуализируйте это: как эффективно снизить расходы на ИТ-инфраструктуру",
+      "category": [
+        "a",
+        "e",
+        "d"
+      ],
+      "description": "Современное информационное общество все больше зависит от вычислительной мощности и хранения данных. С каждым годом объемы данных, генерируемых и хранимых компаниями и организациями, растут в геометрической прогрессии. Компании все чаще переносят свои вычисления и данные в облачные сервисы, чтобы получить масштабируемость, гибкость и доступность. Для удовлетворения потребности в мощности вычислений и хранении данных требуются значительные финансовые вложения в оборудование, его обновление и поддержку. Кроме расширения оборудования, можно провести оптимизацию уже существующего парка ресурсов. Виртуализация представляет собой эффективное решение в этом случае, поскольку она обладает рядом преимуществ, включая сокращение затрат на электроснабжение, охлаждение, обслуживание и площадь, занимаемую в ЦОДе. С развитием сферы ИТ и цифровой экономики, платформы виртуализации стали важным элементом экосистемы многих предприятий разного уровня. Эти технологии перевернули представление о том, как бизнес может выстраивать цифровые процессы. Мы рассмотрим различные типы платформ виртуализации, их роль в структуре бизнеса, а также историю их появления и развития.Платформы виртуализации могут быть разделены на несколько основных типов, каждый из которых имеет свои уникальные особенности и применяется в зависимости от нужд бизнеса. Вот некоторые из них.",
+      "comments": [
+        {
+          "id": 1,
+          "author": {
+            "name": "Максим",
+            "surname": "Петров"
+          },
+          "date": "16.07.2023",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        },
+        {
+          "id": 2,
+          "author": {
+            "name": "Иван",
+            "surname": "Иванов"
+          },
+          "date": "20.03.2023",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        },
+        {
+          "id": 3,
+          "author": {
+            "name": "Александр",
+            "surname": "Григоревь"
+          },
+          "date": "16.07.2022",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
+        }
+      ]
+    }
+  ]
+}
