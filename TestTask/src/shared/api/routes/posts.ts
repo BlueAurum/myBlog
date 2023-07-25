@@ -6,7 +6,7 @@ import { api } from '..'
 import { endpoints_posts } from '../endpoints'
 
 export const getPosts = (): AxiosPromise<IPosts[]> => {
-    return api.get(endpoints_posts.posts)
+    return api.get(`${endpoints_posts.posts}?_sort=id&_order=desc`)
 }
 
 export const getPostById = (id: string): AxiosPromise<IPosts> => {
@@ -36,4 +36,12 @@ export const deletePost = (id: string): AxiosPromise => {
 
 export const editTitle = (id: string, payload: unknown): AxiosPromise => {
     return api.patch(`${endpoints_posts.posts}/${id}`, payload)
+}
+
+type INewPost = Omit<IPosts, 'comments' | 'id' | 'category'> & {
+    category: string[]
+}
+
+export const addNewPost = (payload: INewPost): AxiosPromise<IPosts> => {
+    return api.post(endpoints_posts.posts, payload)
 }

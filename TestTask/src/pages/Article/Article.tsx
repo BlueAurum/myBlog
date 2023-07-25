@@ -68,7 +68,9 @@ export const Article: FC = () => {
                             post.category && post.category.map(category => <span key={category} className={s.category}>#{category}</span>)
                         }
                     </article>
-                    <div className={s.commentText}>комментарии</div>
+                    {
+                        post.comments && <div className={s.commentText}>комментарии</div>
+                    }
                     {
                         post.comments && <CommentsList comments={post.comments} />
                     }

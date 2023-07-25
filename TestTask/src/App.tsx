@@ -2,9 +2,9 @@ import { useEffect } from 'react'
 import { Suspense } from 'react'
 import { Routes, Route } from 'react-router'
 import { lazily } from 'react-lazily'
-import { useAppDispatch } from './shared/hooks/redux'
+import { useAppDispatch, useAppSelector } from './shared/hooks/redux'
 import { Header } from './features'
-import { getUser } from './store/slices/auth'
+import { getUser, selectUser } from './store/slices/auth'
 import cn from 'classnames'
 import s from './app.module.scss'
 
@@ -16,6 +16,11 @@ const { Profile } = lazily(() => import('./pages'))
 const { Error } = lazily(() => import('./pages'))
 
 export function App() {
+
+  const { authData } = useAppSelector(selectUser)
+
+  //прекрасно понимаю что так делать не безопасно и так делать нельзя
+  const isAdmin = authData?.name === 'admin' && authData.email.includes('admin')
 
   const dispatch = useAppDispatch()
 
@@ -63,14 +68,6 @@ export function App() {
           }
         />
         <Route
-          path='/admin'
-          element={
-            <Suspense fallback={<h1 className={s.loader}>Loading...</h1>}>
-              <Admin />
-            </Suspense>
-          }
-        />
-        <Route
           path='*'
           element={
             <Suspense fallback={<h1 className={s.loader}>Loading...</h1>}>
@@ -78,6 +75,16 @@ export function App() {
             </Suspense>
           }
         />
+        {
+          isAdmin && <Route
+            path='/admin'
+            element={
+              <Suspense fallback={<h1 className={s.loader}>Loading...</h1>}>
+                <Admin />
+              </Suspense>
+            }
+          />
+        }
       </Routes>
     </div>
   )

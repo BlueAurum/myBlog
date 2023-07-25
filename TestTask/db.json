@@ -29,11 +29,17 @@
       "password": "$2a$10$dU9E/Y.kEfUUj5Gs1ZNkrO/sm5i5Rmg2QE8Y7MvU5hrOEM6QKst9C",
       "name": "yakub",
       "id": 5
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$1fBKiA2XxTRRrZYyQJCONe/gUyEIMm9uxjoxDZA1pHgXOp.2ZQIFq",
+      "name": "admin",
+      "id": 6
     }
   ],
   "posts": [
     {
-      "views": 13,
+      "views": 14,
       "id": 2,
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoregroup.com.br%2Fpt-br%2Fwp-content%2Fuploads%2F2020%2F11%2FiStock-1259086543.jpg&f=1&nofb=1&ipt=e781b0a87388b0f4c1cc18ea9ae534635153cc541783526c946327da4e1aeedd&ipo=images",
       "title": "Как CRM облегчает жизнь отдела продаж",
@@ -116,7 +122,7 @@
     {
       "views": 5,
       "id": 4,
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmillion-wallpapers.ru%2Fwallpapers%2F4%2F20%2F10829160056736409327.jpg&f=1&nofb=1&ipt=d1f80a39ef80bb0c75dbf0b73f26dd621c1af090bea8cb26236c39fd20f0d197&ipo=images",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsoftline.ru%2Fuploads%2Fresizer%2Fimages%2F487b05%2Fb9bb6b%2Fd48809%2Fmode1-760x362.jpg&f=1&nofb=1&ipt=91606fb42a0b9dc5eacc9f5039eb691162d876615848b4b8856d629dd4b9962e&ipo=images",
       "title": "Виртуализируйте это: как эффективно снизить расходы на ИТ-инфраструктуру",
       "category": [
         "a",
@@ -153,6 +159,43 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus consequuntur illo commodi adipisci doloremque iusto culpa vel voluptates neque deleniti similique nihil fugiat, reiciendis minima laboriosam deserunt quas alias!"
         }
       ]
+    },
+    {
+      "views": 5,
+      "image": "https://it-dev-journal.ru/api/proxy/uploads/large_berries_0b23baf0ff.jpg",
+      "title": "Как подписаться на изменения LocalStorage",
+      "category": [
+        "js",
+        "react",
+        "html",
+        "css"
+      ],
+      "description": "Иногда есть необходимость подписываться на изменения значений в LocalStorage и быстро на них реагировать. В этой статье напишем универсальную реализацию на JavaScript, которая не будет привязана к определенному фреймворку. Нужно будет просто добавить необходимую прослойку. В React этой прослойкой будет являться кастомный хук, отвечающий за подписку/отписку на событие внутри useEffect.",
+      "id": 5
+    },
+    {
+      "views": 1,
+      "image": "https://it-dev-journal.ru/api/proxy/uploads/large_Sovremennaya_programmnaya_inzheneriya_Chast_1_Proektirovanie_sistem_40bc822b99.jpg",
+      "title": "Современная программная инженерия — Часть 1: Проектирование систем",
+      "category": [
+        "a",
+        "b",
+        "c"
+      ],
+      "description": "В ранние времена (конце 80-х и начале 90-х) разработка программного обеспечения в основном заключалась в программном обеспечении, которое работало локально на вашем компьютере или на мейнфреймах со значительно большей вычислительной мощностью, если у вас был к нему доступ. Сегодня большая часть разрабатываемого программного обеспечения либо работает в облаке, либо работает на устройстве, требующем доступа к облаку, либо поддерживает другое программное обеспечение, которое также работает в облаке. Очень редко случается работать над программной системой, которая работает в ограниченном пространстве (например, встроенные программные системы), которые не имеют доступа к более мощной вычислительной платформе в другом месте. Системы бухгалтерского учета теперь обрабатывают кучи данных, размещенных на собственном железе либо в хранилище данных. В системах продаж теперь отношения с клиентами управляются третьей стороной с помощью плагинов, разработанных еще большим количеством сторонних или собственных разработчиков.",
+      "id": 6
+    },
+    {
+      "views": 0,
+      "image": "https://it-dev-journal.ru/api/proxy/uploads/large_chair_d56a5ca1c6.jpg",
+      "title": "О простых решениях и понимаемом коде",
+      "category": [
+        "arch",
+        "front",
+        "js"
+      ],
+      "description": "В любом проекте есть два вида сложности: сложность доменной области, и ненужная, «случайная» сложность, привносимая разработчиками. Сложность домена имеет более менее четкие границы и ее нужно принимать как есть. Работа с ней должна являться основной задачей разработчика (бизнес задачи, продуктовые задачи). К случайной же сложности относятся усложнения, привнесенные разработчиками. Случайную сложность следует избегать и сводить к минимуму. Как можно это сделать? Нужно быть “умеренным” в написании кода, во внедрении процессов и инфраструктуры. Все, что вы добавите сегодня, должно быть понято вами или кем-то еще в будущем. Чем сложнее ваша система, тем больше ресурсов люди тратят на ее изучение, а не на внедрение улучшений и новых функций.",
+      "id": 7
     }
   ]
 }

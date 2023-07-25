@@ -20,16 +20,19 @@ export const ArticleItem: FC<ArticleItemProps> = ({
     title,
     description,
 }) => {
-    const { isAuth } = useAppSelector(selectUser)
-
-    const isAdmin = true
-
-    const dispatch = useAppDispatch()
 
     const [isShowComment, setIsShowComment] = useState<boolean>(false)
     const [isShowImageEditor, setIsShowImageEditor] = useState<boolean>(false)
     const [isShowTitleEditor, setIsShowTitleEditor] = useState<boolean>(false)
 
+    const { isAuth, authData } = useAppSelector(selectUser)
+
+    //прекрасно понимаю что так делать не безопасно и так делать нельзя
+    const isAdmin = authData?.name === 'admin' && authData.email.includes('admin')
+
+    const dispatch = useAppDispatch()
+
+    //тут тоже можно было бы сделать обработку ошибок в try catch 
     const deleteOnePost = async () => {
         const response = await deletePost(id)
         if (response.status === 200 || response.statusText === 'OK') {

@@ -3,6 +3,29 @@ import { IPosts } from '../../shared/types/posts'
 import { getPosts } from '../../shared/api/routes/posts'
 import { RootState } from '..'
 
+//все запросы связанные с постами можно было бы сюда вынести
+// можно было бы сделать так 
+/*
+
+const postState: Type = {
+    posts: {
+        isLoading: false,
+        data: [],
+        isError: null
+    },
+    addNewPost: {
+        isLoading: false,
+        data: [],
+        isError: null
+    }
+}
+
+и так далее 
+
+я в некоторых компонентах написал запросы но стоит сделать так 
+
+*/
+
 interface IState {
     isLoading: boolean,
     data: IPosts[],
